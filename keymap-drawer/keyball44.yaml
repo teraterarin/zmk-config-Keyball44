@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  QWRT:
+  Windows:
   - Ctl+$$mdi:keyboard-space$$
   - Q
   - W
@@ -39,13 +39,13 @@ layers:
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: FUN}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-esc$$', h: SCROLL}
-  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: SCROLL}
+  - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: Scroll_GN}
+  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: Scroll_GN}
   - {t: 'Alt+$$mdi:arrow-left-bold$$', h: SYM}
   - $$mdi:backspace-reverse-outline$$
-  NUM:
+  iPad:
   - Ctl+$$mdi:keyboard-space$$
   - Q
   - W
@@ -84,10 +84,10 @@ layers:
   - {t: '-', s: _}
   - Alt+Gui+H
   - Sft+Gui+3
-  - {t: '$$mdi:keyboard-tab$$', h: FUN}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: Gui+H, h: SCROLL}
-  - {t: 'Gui+}', h: SCROLL}
+  - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: Gui+H, h: Scroll_GN}
+  - {t: 'Gui+}', h: Scroll_GN}
   - {t: 'Gui+{', h: SYM}
   - $$mdi:backspace-reverse-outline$$
   SYM:
@@ -117,8 +117,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: QWRT, h: toggle}
-  - {t: NUM, h: toggle}
+  - {t: Windows, h: toggle}
+  - {t: iPad, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
@@ -135,7 +135,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  FUN:
+  Num_Func:
   - Gui+PRINTSCREEN
   - Sft+Alt+D
   - F7
@@ -180,7 +180,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  MOUSE:
+  Mouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -225,7 +225,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  SCROLL:
+  Scroll_GN:
   - Gui+W
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
