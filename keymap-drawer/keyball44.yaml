@@ -117,8 +117,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Windows, h: toggle}
-  - {t: iPad, h: toggle}
+  - '&Bluetooth1'
+  - '&Bluetooth2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
