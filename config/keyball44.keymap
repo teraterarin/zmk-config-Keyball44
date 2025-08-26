@@ -106,10 +106,10 @@
         SCROLL+GN {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
+&kp LG(W)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(Z)  &kp LS(LG(Z))  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp P            &kp E        &kp H      &kp A          &kp L               &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp I            &kp T        &kp M      &kp S          &kp F               &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans           &trans       &trans     &trans                     &trans  &trans                                  &trans
             >;
         };
     };
