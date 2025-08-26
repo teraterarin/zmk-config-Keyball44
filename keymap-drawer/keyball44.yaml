@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball44}
 layers:
-  QWRT:
+  Windows:
   - Ctl+$$mdi:keyboard-space$$
   - Q
   - W
@@ -39,13 +39,13 @@ layers:
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: FUN}
+  - {t: '$$mdi:keyboard-tab$$', h: Num+Func}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: '$$mdi:keyboard-esc$$', h: SCROLL}
-  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: SCROLL}
-  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: SYM}
+  - {t: '$$mdi:keyboard-esc$$', h: SCROLL+GN}
+  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: SCROLL+GN}
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: System}
   - $$mdi:backspace-reverse-outline$$
-  NUM:
+  iPad:
   - Ctl+$$mdi:keyboard-space$$
   - Q
   - W
@@ -84,13 +84,13 @@ layers:
   - {t: '-', s: _}
   - Alt+Gui+H
   - Sft+Gui+3
-  - {t: '$$mdi:keyboard-tab$$', h: FUN}
+  - {t: '$$mdi:keyboard-tab$$', h: Num+Func}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: Gui+H, h: SCROLL}
-  - {t: 'Gui+}', h: SCROLL}
-  - {t: 'Gui+{', h: SYM}
+  - {t: Gui+H, h: SCROLL+GN}
+  - {t: 'Gui+}', h: SCROLL+GN}
+  - {t: 'Gui+{', h: System}
   - $$mdi:backspace-reverse-outline$$
-  SYM:
+  System:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -117,8 +117,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: QWRT, h: toggle}
-  - {t: NUM, h: toggle}
+  - {t: Windows, h: toggle}
+  - {t: iPad, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
@@ -135,7 +135,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  FUN:
+  Num+Func:
   - Gui+PRINTSCREEN
   - Sft+Alt+D
   - F7
@@ -225,7 +225,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  SCROLL:
+  SCROLL+GN:
   - Gui+W
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
