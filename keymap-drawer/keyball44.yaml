@@ -39,7 +39,7 @@ layers:
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: Num+Func}
+  - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: '$$mdi:keyboard-esc$$', h: SCROLL_GN}
   - {t: 'Alt+$$mdi:arrow-right-bold$$', h: SCROLL_GN}
@@ -84,7 +84,7 @@ layers:
   - {t: '-', s: _}
   - Alt+Gui+H
   - Sft+Gui+3
-  - {t: '$$mdi:keyboard-tab$$', h: Num+Func}
+  - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: Gui+H, h: SCROLL_GN}
   - {t: 'Gui+}', h: SCROLL_GN}
@@ -135,7 +135,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Num+Func:
+  Num_Func:
   - Gui+PRINTSCREEN
   - Sft+Alt+D
   - F7
