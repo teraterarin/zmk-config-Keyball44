@@ -43,7 +43,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-esc$$', h: Scroll_GN}
   - {t: 'Alt+$$mdi:arrow-right-bold$$', h: Scroll_GN}
-  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: SYM}
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: System}
   - $$mdi:backspace-reverse-outline$$
   iPad:
   - Ctl+$$mdi:keyboard-space$$
@@ -88,9 +88,9 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: Gui+H, h: Scroll_GN}
   - {t: 'Gui+}', h: Scroll_GN}
-  - {t: 'Gui+{', h: SYM}
+  - {t: 'Gui+{', h: System}
   - $$mdi:backspace-reverse-outline$$
-  SYM:
+  System:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -105,8 +105,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - '&Bluetooth1'
+  - '&Bluetooth2'
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - .
@@ -117,8 +117,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&Bluetooth1'
-  - '&Bluetooth2'
+  - {t: Windows, h: toggle}
+  - {t: iPad, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
