@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball44}
 layers:
   Windows:
-  - LANG ZENKAKUHANKAKU
+  - Ctl+$$mdi:keyboard-space$$
   - Q
   - W
   - E
@@ -100,8 +100,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - INT YEN
-  - {t: '`', s: '~'}
+  - {t: \, s: '|'}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -119,14 +119,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Windows, h: toggle}
   - {t: iPad, h: toggle}
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - '~'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '|'
-  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
