@@ -108,7 +108,7 @@ layers:
   - '&Bluetooth1'
   - '&Bluetooth2'
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-high$$
   - .
   - '"'
   - $$mdi:arrow-up-bold$$
@@ -119,8 +119,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Windows, h: toggle}
   - {t: iPad, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - MUTE
+  - $$mdi:volume-low$$
   - '~'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
