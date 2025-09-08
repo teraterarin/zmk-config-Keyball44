@@ -43,7 +43,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-esc$$', h: Scroll_GN}
   - {t: 'Alt+$$mdi:arrow-right-bold$$', h: Scroll_GN}
-  - {t: '$$mdi:skip-previous$$', h: System}
+  - {t: 'Alt+$$mdi:arrow-left-bold$$', h: System}
   - $$mdi:backspace-reverse-outline$$
   iPad:
   - Ctl+$$mdi:keyboard-space$$
