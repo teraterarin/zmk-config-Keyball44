@@ -83,7 +83,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - Alt+Gui+H
-  - GLOBE
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: Gui+H, h: Scroll_GN}
