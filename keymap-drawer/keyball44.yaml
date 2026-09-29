@@ -41,8 +41,8 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - {t: '$$mdi:keyboard-esc$$', h: Scroll_GN}
-  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: Scroll_GN}
+  - {t: '$$mdi:keyboard-esc$$', h: Scroll}
+  - {t: 'Alt+$$mdi:arrow-right-bold$$', h: Scroll}
   - {t: 'Alt+$$mdi:arrow-left-bold$$', h: System}
   - $$mdi:backspace-reverse-outline$$
   iPad:
@@ -86,8 +86,8 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:keyboard-tab$$', h: Num_Func}
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
-  - {t: Gui+H, h: Scroll_GN}
-  - {t: 'Gui+}', h: Scroll_GN}
+  - {t: Gui+H, h: Scroll}
+  - {t: 'Gui+}', h: Scroll}
   - {t: 'Gui+{', h: System}
   - $$mdi:backspace-reverse-outline$$
   System:
@@ -225,7 +225,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  Scroll_GN:
+  Scroll:
   - Gui+W
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
