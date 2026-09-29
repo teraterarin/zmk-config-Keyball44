@@ -13,10 +13,10 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: keyball44_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: keyball44_right
 
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: settings_reset
